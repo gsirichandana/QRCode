@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QR_Code</string>
+    <string name="activity_sign_in">Sign In</string>
+    <string name="title_activity_sign__up">Sign_Up</string>
+    <string name="RegistrationForm">Sign Up</string>
+    <string name="Name">Name</string>
+    <string name="EnrollmentNumber">Enrollment Number</string>
+    <string name="Branch">Branch</string>
+    <string name="Year">Year</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="CPI">Current CPI</string>
+    <string name="SSC">SSC</string>
+    <string name="HSC">HSC</string>
+    <string name="lbl_email_hint">Enter valid email</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_sign_in__gen_bridge">SignIn_GenBridge</string>
+    <string name="welcome">Hi! Select What You Want To Do : </string>
+    <string name="app2_name">Generation</string>
+    <string name="identifier">You are...</string>
+    <string name="fuserid">Username</string>
+    <string name="Admin_id">Admininstrator ID</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main__qr">Main_QR</string>
+    <string name="title_activity_gen_qrcode">GenQRcodeActivity</string>
+    <string name="gen_qr">Generated QR code</string>
+    <string name="title_activity_generate_qrcode">GenerateQRCodeAct</string>
+    <string name="title_activity_main__scan">Main_Scan</string>
+    <string name="title_activity_mac">MAC</string>
+    <string name="title_activity_faculty_login">Faculty_login</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_admin__login">Admin_Login</string>
+    <string name="title_activity_user__drawer">User_Drawer</string>
+    <string name="title_activity_user_profile_drawer">user_profileDrawer</string>
+    <string name="title_activity_drawer_item">drawer_item</string>
+    <string name="title_activity_fragment_preferances">FragmentPreferances</string>
+    <string name="title_activity_activity_main">activity_main</string>
+    <string name="title_activity_navigation_drawer_fragment">NavigationDrawerFragment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_toolbar">Toolbar</string>
+    <string name="title_activity_fragment_one">FragmentOne</string>
+    <string name="title_activity_fragment_two">FragmentTwo</string>
+    <string name="title_activity_fragment_three">FragmentThree</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_eve_reg">Eve_reg</string>
+    <string name="title_activity_eve_gen">Eve_gen</string>
+    <string name="title_activity_events">Events</string>
+    <string name="lib">Library</string>
+    <string name="lib_title">Scan the QR code of the book to issue it..</string>
+    <string name="welcome_user">Welcome User</string>
+    <string name="eve">Events</string>
+    <string name="inter">Student-Faculty Interactions</string>
+    <string name="events">Events</string>
+    <string name="event_gen">A Coordinator..?? Generate your Event QR code here..</string>
+    <string name="event_reg">Registering for a event, scan your QR code here..</string>
+    <string name="title_activity_stu_fac__inter">StuFac_Inter</string>
+    <string name="title_activity_library">Library</string>
+    <string name="title_activity_main__profile">Main_Profile</string>
+    <string name="title_activity_nav_drawer_list_adapter">NavDrawerListAdapter</string>
+    <string name="title_activity_main_fragment">Main_fragment</string>
+    <string name="stu_fac">Student Faculty interactions</string>
+    <string name="cmat_title">Course Material</string>
+    <string name="hello_others">Select specific button according to your requirement:</string>
+    <string name="book_issue">Book Issue</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Profile</item>
+        <item>Home</item>
+        <item>History</item>
+        <item>About</item>
+        <item>Contact</item>
+    </string-array>
+
+    <string name="title_activity_stu_fac_inter_main">Stu_fac_inter_main</string>
+    <string name="title_activity_course__mat_man">Course_MatMan</string>
+    <string name="title_activity_stu_fac_review">StuFac_review</string>
+    <string name="title_activity_others_bridge">OthersBridge</string>
+    <string name="title_activity_security_login">SecurityLogin</string>
+    <string name="title_activity_registrar__login">Registrar_Login</string>
+    <string name="title_activity_library_form">LibraryForm</string>
+    <string name="simple_spinner_items">string array</string>
+    <string name="title_activity_faculty_home">FacultyHome</string>
+    <string name="title_activity_attendance">Attendance</string>
+    <string name="title_activity_security_home">SecurityHome</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_tnp">TNP</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+    <string name="title_activity_data">Data</string>
+
+</resources>

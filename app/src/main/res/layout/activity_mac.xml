@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/unnamed"
+    tools:context="com.example.siri.qr_code.MAC">
+
+    <TextView
+        android:text="@string/identifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_tv"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student"
+        android:id="@+id/Stud_btn"
+        android:layout_below="@+id/date_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:background="#fff7f7ff"
+        android:textColor="#ff000000"
+        android:textSize="17sp"
+        style="@android:style/Holo.Light.ButtonBar"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faculty"
+        android:id="@+id/Fac_btn"
+        android:background="#fff7f7ff"
+        android:textColor="#ff000000"
+        android:textSize="17dp"
+        style="@android:style/Holo.Light.ButtonBar"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/Oth_btn"
+        android:layout_alignStart="@+id/Oth_btn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Others"
+        android:id="@+id/Oth_btn"
+        android:layout_marginTop="69dp"
+        android:background="#fff7f7ff"
+        android:textColor="#ff000000"
+        android:textSize="17dp"
+        style="@android:style/Holo.Light.ButtonBar"
+        android:layout_below="@+id/Fac_btn"
+        android:layout_alignLeft="@+id/Stud_btn"
+        android:layout_alignStart="@+id/Stud_btn" />
+
+
+</RelativeLayout>

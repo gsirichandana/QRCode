@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.siri.qr_code" >
+
+    <uses-sdk android:minSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat" >
+        <activity
+            android:name=".Sign_In"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name=".Sign_Up"
+            android:label="@string/title_activity_sign__up" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".AndroidBarcodeQrExample"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignIn_GenBridge"
+            android:label="@string/title_activity_sign_in__gen_bridge" >
+        </activity>
+        <activity
+            android:name=".Main_Scan"
+            android:label="@string/title_activity_main__scan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.google.zxing.client.android.SCAN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".generator.Main_QR" />
+        <activity android:name=".generator.GenerateQRCodeAct" />
+        <activity
+            android:name=".MAC"
+            android:label="@string/title_activity_mac" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Faculty.Faculty_login"
+            android:label="@string/title_activity_faculty_login" >
+        </activity>
+        <activity
+            android:name=".Admin.Admin_Login"
+            android:label="@string/title_activity_admin__login" >
+        </activity>
+        <activity
+            android:name=".generator.User_Drawer"
+            android:label="@string/title_activity_user__drawer" >
+        </activity>
+        <activity
+            android:name=".User_profile.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".User_profile.FragmentOne"
+            android:label="@string/title_activity_fragment_one" >
+        </activity>
+        <activity
+            android:name=".User_profile.FragmentTwo"
+            android:label="@string/title_activity_fragment_two" >
+        </activity>
+        <activity
+            android:name=".User_profile.FragmentThree"
+            android:label="@string/title_activity_fragment_three" >
+        </activity>
+        <activity
+            android:name=".Profile.HomePage"
+            android:label="@string/title_activity_home_page" >
+        </activity>
+        <activity
+            android:name=".Profile.Eve_reg"
+            android:label="@string/title_activity_eve_reg" >
+        </activity>
+        <activity
+            android:name=".Profile.Eve_gen"
+            android:label="@string/title_activity_eve_gen" >
+        </activity>
+        <activity
+            android:name=".Profile.Events"
+            android:label="@string/title_activity_events" >
+        </activity>
+        <activity
+            android:name=".Profile.StuFac_Inter"
+            android:label="@string/title_activity_stu_fac__inter" >
+        </activity>
+        <activity
+            android:name=".Profile.Library"
+            android:label="@string/title_activity_library" >
+        </activity>
+        <activity
+            android:name=".User_profile.Main_Profile"
+            android:label="@string/title_activity_main__profile" >
+        </activity>
+        <activity
+            android:name=".User_profile.NavDrawerListAdapter"
+            android:label="@string/title_activity_nav_drawer_list_adapter" >
+        </activity>
+        <activity
+            android:name=".User_profile.Main_fragment"
+            android:label="@string/title_activity_main_fragment" >
+        </activity>
+        <activity
+            android:name=".User_profile.NavigationDrawerFragment"
+            android:label="@string/title_activity_navigation_drawer_fragment" >
+        </activity>
+        <activity
+            android:name=".Profile.Stu_fac_inter_main"
+            android:label="@string/title_activity_stu_fac_inter_main" >
+        </activity>
+        <activity
+            android:name=".Profile.Course_MatMan"
+            android:label="@string/title_activity_course__mat_man" >
+        </activity>
+        <activity
+            android:name=".Profile.StuFac_review"
+            android:label="@string/title_activity_stu_fac_review" >
+        </activity>
+        <activity
+            android:name=".Others.OthersBridge"
+            android:label="@string/title_activity_others_bridge" >
+        </activity>
+        <activity
+            android:name=".Others.SecurityLogin"
+            android:label="@string/title_activity_security_login" >
+        </activity>
+        <activity
+            android:name=".Others.Registrar_Login"
+            android:label="@string/title_activity_registrar__login" >
+        </activity>
+        <activity
+            android:name=".Profile.LibraryForm"
+            android:label="@string/title_activity_library_form" >
+        </activity>
+        <activity
+            android:name=".Faculty.FacultyHome"
+            android:label="@string/title_activity_faculty_home" >
+        </activity>
+        <activity
+            android:name=".Faculty.Attendance"
+            android:label="@string/title_activity_attendance" >
+        </activity>
+        <activity
+            android:name=".Others.SecurityHome"
+            android:label="@string/title_activity_security_home" >
+        </activity>
+        <activity
+            android:name=".Profile.History"
+            android:label="@string/title_activity_history" >
+        </activity>
+        <activity
+            android:name=".Profile.TNP"
+            android:label="@string/title_activity_tnp" >
+        </activity>
+        <activity
+            android:name=".Profile.MyProfile"
+            android:label="@string/title_activity_my_profile" >
+        </activity>
+        <activity
+            android:name=".Profile.Data"
+            android:label="@string/title_activity_data" >
+        </activity>
+    </application>
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+</manifest>
